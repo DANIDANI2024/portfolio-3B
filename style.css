@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Chakra Petch', sans-serif;
-    color: var(--cor-principal);
+  background-color: #6c6c6d;
 }
 
 h1, h2, h5 {
@@ -16,16 +16,79 @@ h1, h2, h5 {
     font-weight: 700;
 }
 
-.lead, .btn-link {
-    color: var(--cor-destaque);
-    font-weight: 700;
-}
-
 a, .btn-link:hover {
     color: var(--cor-principal)
 }
 
-a:hover{
-    color: var(--cor-destaque);
+.lead{
+color: white;
+text-shadow: 1px 3px #353536;
 }
 
+.habi{
+    text-shadow: 2px 2px rgb(87, 84, 87);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    color: inherit;
+    color: white;
+}
+
+.habi:hover{
+    transform: scale(1.2);
+}
+
+.enter{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: aliceblue;
+}
+
+.git{
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.a-1{
+    display: flex;
+    color: aliceblue;
+}
+
+.meu-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.templet{
+    color: white;
+    text-shadow: 1px 6px #5c5c5e;
+}
+
+.info{
+    color: white;
+}
+.min-3{
+    color: white;
+}
+
+.card{
+    transition: transform 0.5s ease; 
+}
+
+.card:hover{
+    transform: scale(1.2);
+ 
+}
+.mon-1{
+color: black;
+}
+.card-body{
+    background-color: #a5a5b3;
+}
+.meu-1{
+    color:white;
+}
