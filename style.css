@@ -8,7 +8,10 @@
 
 body {
     font-family: 'Chakra Petch', sans-serif;
-  background-color: #6c6c6d;
+  background: #ffffff;
+background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(110, 110, 110, 1) 51%, rgba(26, 26, 26, 1) 100%);
+
+
 }
 
 h1, h2, h5 {
@@ -130,3 +133,4 @@ color: rgb(255, 255, 255);
 .a-5{
     color: inherit;
 }
+
